@@ -1,5 +1,8 @@
 import './App.css';
 import FC from "./FunctionalComp"
+import Click from "./Components/Click"
+import Counter from "./Components/Counter"
+import ParentComp from './ParentComp';
 import {ClassComp, ClassComp1} from "./ClassComp"
 
 function App() {
@@ -10,6 +13,9 @@ function App() {
       <FC />
       <ClassComp />
       <ClassComp1 />
+      <Click />
+      <Counter />
+      <ParentComp />
     </div>
   );
 }
